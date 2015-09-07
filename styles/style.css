@@ -135,7 +135,6 @@ h4 {
 .finalFooter {
   height: 97px;
   width: 1300px;
-  line-height: 75px;
   font-size: 14px;
   font-weight: bold;
   color: #A3B2BD;
@@ -174,7 +173,7 @@ h4 {
 .sidebar {
   width: 29%;
   float: right;
-  height: 100%;
+  height: 100px;
   position: relative;
   top: -820px;
 }
