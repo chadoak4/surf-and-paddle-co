@@ -1,0 +1,319 @@
+body {
+  margin: 0px;
+}
+header {
+  background-image: url(images/header.jpg);
+  height: 523px;
+  width: auto;
+}
+ul {
+  margin: 0px;
+}
+nav ul li {
+  display: inline-block;
+  position: relative;
+  left: 926px;
+  top: 17px;
+  padding: 5px;
+  font-family: oswald, Helvetica, sans-serif;
+}
+ nav ul li a{
+  text-decoration: none;
+
+}
+#logo {
+  position: absolute;
+  left: 140px;
+  top: 10px;
+  font-weight: bold;
+  color: #196EB1;
+}
+#logo a {
+  position: relative;
+  top: -15px;
+  right: -8px;
+  text-decoration: none;
+  font-family: Open Sans, Helvetica, sans-serif;
+}
+#logowords h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-size: 100px;
+  position: relative;
+  top: 140px;
+  margin-top: 0px;
+}
+#logowords h6 {
+  color: #083452;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  top: 60px;
+  margin-top: 0px;
+  font-family: Open Sans, Helvetica, sans-serif;
+}
+#centerblog {
+  width: 600px;
+  padding-left: 185px;
+  font-family: oswald, Helvetica, sans-serif;
+  color: #545F66;
+}
+#centerblog h1 {
+  color: #083452;
+  font-size: 60px;
+  line-height: 62px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+#centerblog ul li {
+  display: inline;
+  list-style-type: none;
+  position: relative;
+  right: 25px;
+}
+#date {
+  color: #A3B2BD;
+  text-decoration: underline;
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-size: 13px;
+}
+#author {
+  color: #196EB1;
+  font-family: Open Sans, Helvetica, sans-serif;
+  font-size: 13px;
+}
+blockquote {
+  font-size: 40px;
+  color: #196EB1;
+  border-left: 2px solid #E1E7EA;
+  padding-left: 15px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+footer {
+  line-height: 0;
+}
+footer h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Oswald, Helvetica, sans-serif;
+  color: #083452;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  clear: both;
+}
+.bottomimage {
+  width: 320px;
+  height: 330px;
+  position: relative;
+  float: left;
+  line-height: 40px;
+}
+.overlay {
+  width: 325px;
+  height: 330px;
+  background-color: rgba(25, 110, 177, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+h4 {
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  color: #083452;
+  font-size: 3.1em;
+}
+.bottomimage:hover .overlay {
+  background: none;
+}
+.bottomimage:hover h4 {
+  color: white;
+}
+.finalFooter {
+  height: 97px;
+  width: 1300px;
+  line-height: 75px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #A3B2BD;
+  background-color: #083452;
+  clear: both;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+.finalFooter .innerFooter {
+  width: 75%;
+  margin: auto;
+}
+.finalFooter .innerFooter .IronYardImage {
+  float: left;
+  display: inline;
+  margin-top: 20px;
+}
+.finalFooter .innerFooter .IronYardText {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 25px;
+  position: relative;
+  bottom: 80px;
+  right: -10px;
+}
+.finalFooter .innerFooter .navItems {
+  float: right;
+  display: inline;
+}
+.navItems ul li {
+  display: inline;
+  text-decoration: none;
+  position: relative;
+  right: -50px;
+  bottom: 173px;
+}
+.sidebar {
+  width: 29%;
+  float: right;
+  height: 100%;
+  position: relative;
+  top: -820px;
+}
+.avatarInfo {
+  display: inline-block;
+  margin-top: 83px;
+  text-align: center;
+  font-size: 14px;
+}
+.avatarInfo img {
+  height: 88px;
+}
+.authorName {
+  color: #196EB1;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.social {
+  margin-top: 0px;
+  font-size: 12px;
+  m;
+  color: #CFD7DE;
+}
+.social a {
+  text-decoration: none;
+}
+.advertisement {
+  display: inline-block;
+  margin-top: 43px;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+}
+.advertisement a {
+  display: block;
+  font-size: 12px;
+  position: absolute;
+  top: 590px;
+  right: 130px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.advertisement img {
+  width: 300px;
+  position: absolute;
+  right: 125px;
+}
+.aboutSidebar {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  margin-top: 35px;
+}
+.aboutSidebar h2 {
+  font-size: 17px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #196EB1;
+  position: relative;
+  absolute;
+  top: 320px;
+  right: 50px;
+}
+.aboutSidebar p {
+  color: #A3B2BD;
+  font-size: 15px;
+  line-height: 170%;
+  margin-top: 6px;
+  padding-right: 50px;
+  position: relative;
+  absolute;
+  top: 323px;
+  right: 50px;
+}
+.buttons {
+  float: left;
+}
+.buttons a {
+  text-decoration: none;
+}
+.button1 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.button2 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.button3 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.bimage {
+  background-color: #545F66;
+  text-align: center;
+  display: inline;
+  float: left;
+  padding: 6px;
+}
+.btext {
+  background: #A3B2BD;
+  color: white;
+  padding: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+  text-align: center;
+  float: right;
+}
+.button1:hover .btext {
+  background: #196EB1;
+  color: white;
+}
+.button1:hover .bimage {
+  background: #083452;
+}
+.button2:hover .btext {
+  background: #196EB1;
+  color: white;
+}
+.button2:hover .bimage {
+  background: #083452;
+}
+.button3:hover .btext {
+  background: #196EB1;
+  color: white;
+}
+.button3:hover .bimage {
+  background: #083452;
+}
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  top: 1400px;
+}
